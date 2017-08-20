@@ -129,25 +129,58 @@
         </LinearLayout>
 
         <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:text="+"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:text="0"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnMin"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:text="-"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+        <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="75dp"
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btnAdd"
+                android:id="@+id/btnMul"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:layout_weight="1"
-                android:text="+"
+                android:text="*"
                 android:textSize="40sp"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/btn0"
+                android:id="@+id/btnDiv"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:layout_weight="1"
-                android:text="0"
+                android:text="/"
                 android:textSize="40sp"
                 android:textStyle="bold" />
 
